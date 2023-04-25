@@ -1,0 +1,170 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Offroad Body_Body_0",
+            "rotation" : [
+                -0.41561874747276306,
+                -0.572067379951477,
+                -0.5720674991607666,
+                0.41561874747276306
+            ],
+            "scale" : [
+                0.0008886757423169911,
+                0.0008886755676940084,
+                0.0008886757423169911
+            ],
+            "translation" : [
+                -0.07292699813842773,
+                0,
+                -0.011878728866577148
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "Body_3",
+            "occlusionTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Offroad Body_Body_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Untitled",
+            "uri" : "Untitled.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Body_3_baseColor",
+            "uri" : "Body_3_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Body_3_metallicRoughness",
+            "uri" : "Body_3_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4586,
+            "max" : [
+                1102.7799072265625,
+                2293.97412109375,
+                1766.270263671875
+            ],
+            "min" : [
+                -1102.7796630859375,
+                -2138.95556640625,
+                215.598876953125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4586,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 4586,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 12420,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 55032,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 55032,
+            "byteOffset" : 55032
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36688,
+            "byteOffset" : 110064
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24840,
+            "byteOffset" : 146752
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 171592,
+            "uri" : "car.bin"
+        }
+    ]
+}
